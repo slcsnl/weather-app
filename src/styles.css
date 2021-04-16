@@ -62,11 +62,18 @@ p.day {
   font-weight: bold;
   margin: 0;
 }
-.fa-linkedin {
-  color: #0966c2;
-}
+
 .spotify {
   display: block;
   margin: 0 auto;
   margin-bottom: 20px;
+}
+footer {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Cutive Mono", monospace;
+}
+
+.fa-linkedin {
+  color: #0966c2;
 }
