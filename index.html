@@ -63,12 +63,12 @@
                 <h1 id="city"></h1>
                 <span class="weather-now" id="temperature"></span
                 ><span class="units">°C</span>
-                <p id="description"></p>
+                <p class="description" id="description"></p>
               </div>
               <div class="col-4 current-weather-icon text-center">
                 <img src="" alt="" id="icon" />
               </div>
-              <div class="col-4">
+              <div class="col-4 other-info">
                 <ul>
                   <li>Humidity: <span id="humidity"></span>%</li>
                   <li>Wind: <span id="wind"></span> km/h</li>
@@ -76,7 +76,6 @@
               </div>
             </div>
           </div>
-          <br />
           <p class="future-forecast">Check the weather for the upcoming days</p>
           <hr />
           <div class="weather-forecast" id="forecast"></div>
@@ -84,11 +83,10 @@
             <p class="music">
               Enjoy your day with the right playlist for this weather
             </p>
-            <br />
             <iframe
               class="spotify"
               src="https://open.spotify.com/embed/playlist/37i9dQZF1DWUNIrSzKgQbP"
-              width="300"
+              width="520"
               height="80"
               frameborder="0"
               allowtransparency="true"

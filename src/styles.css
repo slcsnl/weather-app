@@ -1,26 +1,32 @@
 body {
   background-color: #330867;
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  font-family: "Cutive Mono", monospace;
 }
 
 h1 {
   font-size: 30px;
   font-weight: bold;
-  font-family: "Cutive Mono", monospace;
 }
-h2 {
-  font-size: 20px;
-  font-weight: bold;
-  font-family: "Cutive Mono", monospace;
+.weather-app-box {
+  border: solid 1.5px #343f56;
+  border-radius: 25px;
+  margin: 40px auto;
+  max-width: 600px;
+  padding: 30px 30px 10px;
+  background: #ecc5b9d5;
+  box-shadow: 8px 6px 6px #3c4e68;
 }
-h3 {
+
+.popular-cities {
   font-size: 18px;
   font-weight: normal;
-  font-family: "Cutive Mono", monospace;
 }
-.current-weather-sun {
-  text-align: center;
-  font-size: 50px;
+
+.current-weather-icon img {
+  height: 120px;
+  width: 120px;
+  filter: drop-shadow(0 0 0.4remn white);
 }
 .weather-now {
   text-align: center;
@@ -28,11 +34,24 @@ h3 {
 }
 .units {
   position: relative;
-  top: -24px;
+  top: -20px;
 }
+.description {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+.weather-forecast {
+  text-align: center;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 15px;
+  padding: 15px;
+}
+
 ul {
   margin: 0 0 10px;
-  padding: 0;
+  padding-top: 5px;
 }
 
 li {
@@ -46,32 +65,28 @@ li {
   font-size: 18px;
   font-weight: bold;
 }
-
-.weather-app-box {
-  border: solid 1.5px #343f56;
-  border-radius: 25px;
-  margin: 60px auto;
-  max-width: 600px;
-  padding: 30px 30px 10px;
-  background: #ecc5b9d5;
-  box-shadow: 8px 6px 6px #3c4e68;
-  font-family: "Cutive Mono", monospace;
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
-p.day {
-  color: #330867;
-  font-weight: bold;
-  margin: 0;
+
+.weather-forecast-temperatures {
+  font-size: 15px;
+}
+
+.music {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .spotify {
   display: block;
   margin: 0 auto;
   margin-bottom: 20px;
+  border-radius: 15px;
 }
 footer {
   font-size: 14px;
   font-weight: normal;
-  font-family: "Cutive Mono", monospace;
 }
 
 .fa-linkedin {
